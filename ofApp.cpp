@@ -97,7 +97,6 @@ void ofApp::draw() {
     
 void ofApp::processContour() {
     
-   // ofxOscBundle bundle;
     RectTracker& tracker = contourFinder.getTracker();
     int count = 0;
     
